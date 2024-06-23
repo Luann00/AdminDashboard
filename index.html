@@ -1,13 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdminDashboard Project</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    
-    <h1>Admin Dashboard</h1>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="title">
+                AdminDashboard
+            </div>
+
+            <div class="section1">
+                <p><i class="fa fa-home"></i>
+                    Home</p>
+
+                <p>Profile</p>
+
+
+                <p>Messages</p>
+
+
+                <p>History</p>
+
+            </div>
+
+
+            <div class="section2">
+                <p>Settings</p>
+
+                <p>Support</p>
+
+
+                <p>Privacy</p>
+
+            </div>
+
+        </div>
+
+        <div class="mainPage">
+            <div class="header">
+                <div class="searchBar">
+                    <div class="textAndSearchButton">
+                        <form id="search-form">
+                            <div class="search">
+                                <input type="text" name="search" class="round" />
+                                <input type="submit" class="corner" value="" />
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <div class="profileView">
+                        <span>&#128276;</span>
+                        <span>
+                            <img src="./assets/profile-picture.jpg" alt="Avatar" style="width:50px">
+                        </span>
+                        <span>Luan Zekiri</span>
+
+                    </div>
+                </div>
+
+                <div class="greetingAndButtons">
+                    <div class="welcomeTextAndProfilePicture">
+                        <img src="./assets/profile-picture.jpg" alt="Avatar" style="width:65px">
+                        <div class="welcomeText">
+                            Hi there,
+                            <br>
+                            Luan!(@Luan)
+                        </div>
+                    </div>
+
+
+                    <div class="actionButtons">
+                        <button class="button button">New</button>
+                        <button class="button button">Upload</button>
+                        <button class="button button">Share</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main">
+
+                <div class="dashboard">
+
+                </div>
+
+                <div class="information">
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
 </body>
+
 </html>

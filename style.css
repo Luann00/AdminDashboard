@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+
+.sidebar {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #0ea5e9;
+    padding: 3%;
+    width: 20vw;
+}
+
+
+.section1,
+.section2 {
+    margin-top: 50%;
+    color: white;
+}
+
+
+
+.title {
+    color: white;
+}
+
+.header {
+    border-bottom: solid gray;
+    height: 20vh;
+    padding: 3%;
+}
+
+.searchBar {
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.round {
+    width: 50vw;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000;
+    background-color:red
+}
+
+
+.button {
+    background-color: #0ea5e9;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 80px;
+
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+.welcomeTextAndProfilePicture {
+    display: flex;
+    align-items: center;
+}
+.welcomeText{
+    margin-left:20px;
+}
+
+
+.greetingAndButtons {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileView {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+span+span {
+    margin-left: 15px;
+}
+
+.dashboard {
+    flex-grow: 1;
+    height: 100vh;
+}
+
+.main {
+    width: 80vw;
+    display: flex;
+    margin: 0;
+}
+
+.mainPage {
+    margin: 0%;
+}
+
+.information {
+    width: 20vw;
+    height: 100vh;
+}
+
+
+p:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
