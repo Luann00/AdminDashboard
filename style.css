@@ -14,14 +14,15 @@ body {
     width: 20vw;
 }
 
-
-.card {
+.card,
+.cardInformation {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
 
 
-.card:hover {
+.card:hover,
+.cardInformation:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -37,10 +38,12 @@ body {
     row-gap: 10px;
 }
 
-.containerGrid>div {
+.containerGrid>div,
+.cardInformation>div {
     border-radius: 3%;
     padding: 5%;
 }
+
 
 
 .section1,
@@ -48,7 +51,6 @@ body {
     margin-top: 50%;
     color: white;
 }
-
 
 
 .title {
@@ -91,8 +93,14 @@ body {
     background: #000;
 }
 
+#username {
+    cursor: pointer;
+    margin-top: 0;
+}
+
 .fa-search {
     margin-right: 20px;
+    cursor: pointer;
 }
 
 #search-form {
@@ -172,6 +180,13 @@ span+span {
 
 .information {
     width: 70vw;
+    flex-grow: 1;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 
