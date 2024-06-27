@@ -241,9 +241,9 @@ p:hover {
     cursor: pointer;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+.pAnnouncementText {
+    margin:0;
+    padding:0;
 }
 
 .container {
