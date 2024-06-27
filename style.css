@@ -69,9 +69,10 @@ body {
 }
 
 .header {
-    border-bottom: solid gray;
     height: 20vh;
     padding: 3%;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .searchBar {
@@ -178,15 +179,15 @@ span+span {
     cursor: pointer;
 }
 
-#cardSection{
+#cardSection {
     border-bottom: solid gray;
-    flex:1;
-    padding:2%;
+    flex: 1;
+    padding: 2%;
 }
 
-#cardSection3{
-    flex:1;
-    padding:2%;
+#cardSection3 {
+    flex: 1;
+    padding: 2%;
 }
 
 
@@ -229,8 +230,8 @@ span+span {
     margin: 2%;
 }
 
-.cardContentInformation{
-    display:flex;
+.cardContentInformation {
+    display: flex;
     flex-direction: column;
     height: 100%;
 }
@@ -238,6 +239,11 @@ span+span {
 
 p:hover {
     cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
